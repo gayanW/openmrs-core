@@ -41,10 +41,10 @@
 		SuppressionFilter can supply a file that contains a list of specific
 		audits that should be suppressed.
 		http://checkstyle.sourceforge.net/config.html
-	<module name="SuppressionFilter">
-    <property name="file" value="${basedir}/checkstyle-suppressions.xml"/>
-	</module>
 	-->
+	<module name="SuppressionFilter">
+    <property name="file" value="https://raw.githubusercontent.com/openmrs/openmrs-core/master/checkstyle-suppressions.xml"/>
+	</module>
 
 	<module name="FileLength">
 		<property name="fileExtensions" value="java"/>
